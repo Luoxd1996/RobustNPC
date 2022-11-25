@@ -2,6 +2,7 @@ import numpy as np
 import random
 from scipy import ndimage
 from scipy.ndimage.interpolation import zoom
+from skimage import exposure
 import matplotlib.pyplot as plt
 try:
     from scipy.special import comb
