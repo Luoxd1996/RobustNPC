@@ -13,10 +13,8 @@ import SimpleITK as sitk
 def withou_augmentation(image):
     return image
 
-def random_noise(image, mu=0.1, sigma=0.5):
-    noise = np.clip(sigma * np.random.randn(image.shape[0], image.shape[1]),
-                    -2 * sigma, 2 * sigma)
-    noise = noise + mu
+def random_noise(image, mean=0.0, var=1):
+    gaussian = np.random.normal(mean, var, (image.shape[0], image.shape[1], image.shape[2]))
     image = image + noise
     return image
 
