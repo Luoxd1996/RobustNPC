@@ -14,8 +14,8 @@ def withou_augmentation(image):
     return image
 
 def random_noise(image, mean=0.0, var=1):
-    gaussian = np.random.normal(mean, var, (image.shape[0], image.shape[1], image.shape[2]))
-    image = image + noise
+    gaussian_noise = np.random.normal(mean, var, (image.shape[0], image.shape[1], image.shape[2]))
+    image = image + gaussian_noise
     return image
 
 def random_rescale_intensity(image):
