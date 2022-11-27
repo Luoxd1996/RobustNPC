@@ -14,7 +14,10 @@
 * Now, you can use the following code to generate NPC-GTVp delineation.
 ```python
 from InferRobustNPC import Inference3D
-Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is the path of input image; save_path is the path of prediction, if it is set to None, the prediction will be saved as ``rawf.replace(".nii.gz", "_pred.nii.gz")''.
+Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") 
+# rawf is the path of input image; save_path is the path of prediction, 
+if it is set to None, the prediction will be saved as ``rawf.replace(".nii.gz", "_pred.nii.gz")''.
 ```
+* 
 
 
