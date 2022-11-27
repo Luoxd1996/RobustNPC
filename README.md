@@ -6,9 +6,10 @@
 * Due to data privacy protection, we can not release the five hospital datasets, but we released the trained our proposed-framework for new data prediction.
 
 ## How to use
-### Before you can use this package for NPC segmentation. You should install:
+### 1. Before you can use this package for NPC segmentation. You should install:
 * PyTorch version >=1.8
 * Some common python packages such as Numpy, Pandas, SimpleITK,OpenCV, pyqt5, scipy......
+### 2. Download the trained model (trained on 600 T1-weight MRI images from 3 hospitals) from [Google Drive](https://drive.google.com/drive/folders/1gapzMiF5c_-lBhI02xXPCWfYY21A9hhy) to "./pretrained_model/".
 
 
 
