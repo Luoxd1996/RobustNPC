@@ -13,8 +13,8 @@
 * Download the trained model (trained on 600 T1-weight MRI images from 3 hospitals) from [Google Drive](https://drive.google.com/drive/folders/1gapzMiF5c_-lBhI02xXPCWfYY21A9hhy) to ``./pretrained_model/``.
 * Now, you can use the following code to generate NPC-GTVp delineation.
 ```python
-from InferRobustNPC import InferRobustNPC
-Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz")
+from InferRobustNPC import Inference3D
+Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is the path of input image; save_path is the path of prediction, if it is set to None, the prediction will be saved as ``rawf.replace(".nii.gz", "_pred.nii.gz")''.
 ```
 
 
