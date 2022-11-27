@@ -9,7 +9,12 @@
 ### 1. Before you can use this package for NPC segmentation. You should install:
 * PyTorch version >=1.8
 * Some common python packages such as Numpy, Pandas, SimpleITK,OpenCV, pyqt5, scipy......
-### 2. Download the trained model (trained on 600 T1-weight MRI images from 3 hospitals) from [Google Drive](https://drive.google.com/drive/folders/1gapzMiF5c_-lBhI02xXPCWfYY21A9hhy) to "./pretrained_model/".
-
+### 2. Run the inference script.
+* Download the trained model (trained on 600 T1-weight MRI images from 3 hospitals) from [Google Drive](https://drive.google.com/drive/folders/1gapzMiF5c_-lBhI02xXPCWfYY21A9hhy) to ``./pretrained_model/``.
+* Now, you can use the following code to generate NPC-GTVp delineation.
+```python
+from InferRobustNPC import InferRobustNPC
+Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz")
+```
 
 
