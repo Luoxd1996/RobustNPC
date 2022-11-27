@@ -18,4 +18,7 @@ Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is th
 ```
 * The trained model just can predict the T1-weighted MRI images, the thickness should be the range of (2.5mm-10.mm).
 
+## Acknowledgment and Statement
+If you have any question, please contact [Xiangde Luo](https://luoxd1996.github.io).
+
 
