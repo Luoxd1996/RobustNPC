@@ -1,5 +1,5 @@
 # RobustNPC
-*Deep learning-based accurate and robust delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a largescale and multi-center study*
+**Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a large-scale and multi-center study**
 
 ## Notes
 * This work was modified from [nnUNet](https://github.com/MIC-DKFZ/nnUNet).
