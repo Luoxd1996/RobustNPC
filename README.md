@@ -19,6 +19,7 @@ Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is th
 * The trained model just can predict the T1-weighted MRI images, the thickness should be in the range of 2.5mm-10.0mm (<1.0mm images will be supported later). 
 
 * This project was originally developed for our previous work [RobustNPC](https://www.sciencedirect.com/science/article/pii/S016781402300018X), if you find it's useful for your research, please consider to cite the followings:
+
     @article{luo2023deep,
     title={Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a large-scale and multi-center study},
     author={Luo, Xiangde and Liao, Wenjun and He, Yuan and Tang, Fan and Wu, Mengwan and Shen, Yuanyuan and Huang, Hui and Song, Tao and Li, Kang and Zhang, Shichuan and Zhang, Shaoting and Wang, Guotai},
