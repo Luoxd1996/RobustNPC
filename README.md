@@ -20,14 +20,14 @@ Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is th
 
 * This project was originally developed for our previous work [RobustNPC](https://www.sciencedirect.com/science/article/pii/S016781402300018X), if you find it's useful for your research, please consider to cite the followings:
 
-    @article{luo2023deep,
-    title={Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a large-scale and multi-center study},
-    author={Luo, Xiangde and Liao, Wenjun and He, Yuan and Tang, Fan and Wu, Mengwan and Shen, Yuanyuan and Huang, Hui and Song, Tao and Li, Kang and Zhang, Shichuan and Zhang, Shaoting and Wang, Guotai},
-    journal={Radiotherapy and Oncology},
-    pages={109480},
-    year={2023},
-    publisher={Elsevier}
-    }
+        @article{luo2023deep,
+        title={Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a large-scale and multi-center study},
+        author={Luo, Xiangde and Liao, Wenjun and He, Yuan and Tang, Fan and Wu, Mengwan and Shen, Yuanyuan and Huang, Hui and Song, Tao and Li, Kang and Zhang, Shichuan and Zhang, Shaoting and Wang, Guotai},
+        journal={Radiotherapy and Oncology},
+        pages={109480},
+        year={2023},
+        publisher={Elsevier}
+        }
 
 
 ## Acknowledgment and Statement
