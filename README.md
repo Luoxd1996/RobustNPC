@@ -29,7 +29,7 @@ Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is th
         year={2023},
         publisher={Elsevier}
         }
-
+        
 or 
 ```
 "Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: A large-scale and multi-center study." Radiotherapy and Oncology 180, (2023): 109480. Accessed February 6, 2023. https://doi.org/10.1016/j.radonc.2023.109480.
