@@ -24,11 +24,16 @@ Inference3D(rawf="example.nii.gz", save_path="example_pred.nii.gz") # rawf is th
         title={Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: a large-scale and multi-center study},
         author={Luo, Xiangde and Liao, Wenjun and He, Yuan and Tang, Fan and Wu, Mengwan and Shen, Yuanyuan and Huang, Hui and Song, Tao and Li, Kang and Zhang, Shichuan and Zhang, Shaoting and Wang, Guotai},
         journal={Radiotherapy and Oncology},
+        volumes={180},
         pages={109480},
         year={2023},
         publisher={Elsevier}
         }
 
+or 
+```
+"Deep learning-based accurate delineation of primary gross tumor volume of nasopharyngeal carcinoma on heterogeneous magnetic resonance imaging: A large-scale and multi-center study." Radiotherapy and Oncology 180, (2023): 109480. Accessed February 6, 2023. https://doi.org/10.1016/j.radonc.2023.109480.
+```
 
 ## Acknowledgment and Statement
 If you have any question, please contact [Xiangde Luo](https://luoxd1996.github.io).
